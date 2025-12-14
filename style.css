@@ -32,6 +32,8 @@ img{
   height: 100%;
   object-fit: cover;       
   display: block;
+   transition: transform 0.4s ease-in-out;
+
 }
 @media (max-width:770px) {
     .images{
@@ -54,4 +56,7 @@ img{
   height: 100px;         
   padding: 5px;
     }   
+}
+.image img:hover{
+transform: scale(1.08);
 }
