@@ -33,3 +33,25 @@ img{
   object-fit: cover;       
   display: block;
 }
+@media (max-width:770px) {
+    .images{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);   
+    }
+    .image{   
+  width:100%;
+  height: 150px;         
+  padding: 5px;
+    }   
+}
+@media (max-width:430px) {
+    .images{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);   
+    }
+    .image{   
+  width:100%;
+  height: 100px;         
+  padding: 5px;
+    }   
+}
