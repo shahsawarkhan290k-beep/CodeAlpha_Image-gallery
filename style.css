@@ -154,14 +154,14 @@ object-fit: contain;
 #next{
     height: fit-content;
     width:fit-content;
-    top:450px;
+    top:500px;
           right: 10px;
           margin-right: 15px;
 }
 #prev{
     height: fit-content;
     width:fit-content;
-    top:450px;
+    top:500px;
     left: 10px;
      margin-left: 15px;}
 
